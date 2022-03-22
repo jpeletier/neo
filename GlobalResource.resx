@@ -1,0 +1,1240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="PictureEndTranmission_Error_Caption" xml:space="preserve">
+    <value>Transmission error</value>
+  </data>
+  <data name="UpdateFlag_Receive_Error_Message" xml:space="preserve">
+    <value>Can not receive the state of the sMMI. Please check the connection to the sMMI.</value>
+  </data>
+  <data name="FatalError_Caption" xml:space="preserve">
+    <value>Fatal Application Error</value>
+  </data>
+  <data name="PictureStartTranmission_Error_Caption" xml:space="preserve">
+    <value>Transmission error</value>
+  </data>
+  <data name="UpdatePanel_Accu_Firmware_Delete" xml:space="preserve">
+    <value>Deleting battery firmware</value>
+  </data>
+  <data name="ShortErrorReport_Checklist" xml:space="preserve">
+    <value>Checklist:</value>
+  </data>
+  <data name="DiagnosePanel_AccuVeryOld_913_Caption" xml:space="preserve">
+    <value>Check for Updates</value>
+  </data>
+  <data name="ErrorReport_DetailBatteryStateCaption" xml:space="preserve">
+    <value>Battery state</value>
+  </data>
+  <data name="DiagnosePanel_sDiagButton_nok" xml:space="preserve">
+    <value>smartDiagnostic is not up to date</value>
+  </data>
+  <data name="MainWindow_MaxSpeedAttention_Message" xml:space="preserve">
+    <value>Attention: Speed is set to {0} km/h!</value>
+  </data>
+  <data name="ConfigPanel_Delete_DefaultParameter_Caption" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="MassConfigPanel_ToolTip_Parameter_StartScreen" xml:space="preserve">
+    <value>Select start screen for this set of parameters</value>
+  </data>
+  <data name="Configuration_StartScreen" xml:space="preserve">
+    <value>Start sceen</value>
+  </data>
+  <data name="FirmwareList_Delete_ToolTip" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="PARAMETER_ID_BUTTONS_STATE" xml:space="preserve">
+    <value>button state</value>
+  </data>
+  <data name="Activation_FileAccessExceptionMessage" xml:space="preserve">
+    <value>Could not create directories.</value>
+  </data>
+  <data name="ImageWarningNoNameCaption" xml:space="preserve">
+    <value>No name</value>
+  </data>
+  <data name="DiagnosePanel_LockBreakToolTip" xml:space="preserve">
+    <value>Disconnect lock between sMMI and motor</value>
+  </data>
+  <data name="FIRMWARE_ACCU_DFI" xml:space="preserve">
+    <value>Accu DFI</value>
+  </data>
+  <data name="ConfigPanel_Update_DefaultParameter_Caption" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="MainWindow_MMIConnectionFailed_Caption" xml:space="preserve">
+    <value>sMMI connection</value>
+  </data>
+  <data name="ConfigPanel_ToolTip_DeleteStartScreen" xml:space="preserve">
+    <value>delete start screen</value>
+  </data>
+  <data name="RegInfoDialog_AcceptEProcessing_Message" xml:space="preserve">
+    <value>Please agree to the electronic processing of personal data or skip this dialog.</value>
+  </data>
+  <data name="DiagnosePanel_ToolTip_Healthy" xml:space="preserve">
+    <value>Component has no errors.</value>
+  </data>
+  <data name="RegInfoDialog_AcceptEProcessing_Caption" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="TestMode_Firmware_ManualAdded_SameFiles" xml:space="preserve">
+    <value>Source and destination files are the same.</value>
+  </data>
+  <data name="ConfigPanel_Delete_DefaultScreen_Caption" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="SettingFile_NotFound_Caption" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="UpdatePanel_TotalProgressBar_AdditionalText" xml:space="preserve">
+    <value>Total progress</value>
+  </data>
+  <data name="PARAMETER_ID_MMI_VERSION_INFORMATION" xml:space="preserve">
+    <value>sMMI version information</value>
+  </data>
+  <data name="ParameterMaxAssistanceSpeed_Caption" xml:space="preserve">
+    <value>ATTENTION</value>
+  </data>
+  <data name="SettingFile_NotFound_Message" xml:space="preserve">
+    <value>Selected file can not be found.</value>
+  </data>
+  <data name="ErrorReport_DetailSystemErrorCaption" xml:space="preserve">
+    <value>System Errors Motor</value>
+  </data>
+  <data name="ConfigPanel_parameterDescriptionRichTextBox_MMI_Text" xml:space="preserve">
+    <value>Current sMMI parameters</value>
+  </data>
+  <data name="ParameterPanel_IdenticalColor_Message" xml:space="preserve">
+    <value>Selected color is identical with another color. Old color value will be restored.</value>
+  </data>
+  <data name="WrongFilePermission_Message" xml:space="preserve">
+    <value>The directory {0} has wrong permissions. Please check the permissions and try again.</value>
+  </data>
+  <data name="ShortErrorReport_Serial_Number" xml:space="preserve">
+    <value>Serial number</value>
+  </data>
+  <data name="AccuFirmwareTransmissionSucceeded_Caption_911" xml:space="preserve">
+    <value>Firmware transmission succeeded</value>
+  </data>
+  <data name="Mmi_Lock_Information" xml:space="preserve">
+    <value>Turn the sMMI Lock active, "married" the sMMI the next engine, with which it is connected.
+I.e. sMMI this works only in combination with this drive.
+The sMMI-Lock has in particular the function that the sMMI is not used in conjunction with a non-provided therefor pedelec.
+For example, a couple has two Pedelecs with this drive, and the partners of different driving profiles (1x casual / comfortable 1x), can be no confusion.
+For your work in the workshop you must consider: Should you prefer the sMMI Cross attempts must sMMI lock be disabled.</value>
+  </data>
+  <data name="ErrorReport_DetailMMIStateCaption" xml:space="preserve">
+    <value>sMMI state</value>
+  </data>
+  <data name="Configuration_Parameters" xml:space="preserve">
+    <value>Parameters</value>
+  </data>
+  <data name="Parameter_Not_Checked" xml:space="preserve">
+    <value>inactive</value>
+  </data>
+  <data name="ConfigPanel_Update_DefaultScreen_Message" xml:space="preserve">
+    <value>You can not change default start screens.</value>
+  </data>
+  <data name="UpdateFlag_Transmit_Error_Caption" xml:space="preserve">
+    <value>Transmission error.</value>
+  </data>
+  <data name="PdfReader_Not_Available_Caption" xml:space="preserve">
+    <value>PDF Reader missing</value>
+  </data>
+  <data name="FIRMWARE_MMI" xml:space="preserve">
+    <value>sMMI</value>
+  </data>
+  <data name="RegInfoDialog_InvalidEMail_Caption" xml:space="preserve">
+    <value>Invalid address</value>
+  </data>
+  <data name="UpdateWorker_Element_Help" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="UpdateWorker_Element_News" xml:space="preserve">
+    <value>News</value>
+  </data>
+  <data name="UpdateWorker_Element_Accu" xml:space="preserve">
+    <value>Battery firmware</value>
+  </data>
+  <data name="WebException_Check_Proxy_Settings" xml:space="preserve">
+    <value>Please check your proxy settings.</value>
+  </data>
+  <data name="ShortErrorReport_Motor" xml:space="preserve">
+    <value>Motor</value>
+  </data>
+  <data name="DiagnosePanel_FirmwareButton_nok" xml:space="preserve">
+    <value>Firmware is not up to date</value>
+  </data>
+  <data name="ErrorReport_DetailMotorStateCaption" xml:space="preserve">
+    <value>Motor state</value>
+  </data>
+  <data name="ShortErrorReport_SettingCaption" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="DiagnosePanel_AccuVeryOld_913_Message" xml:space="preserve">
+    <value>Battery firmware 1.1 needed. Please check for updates.</value>
+  </data>
+  <data name="LanguageInvalid_ParameterPanel_Message" xml:space="preserve">
+    <value>Unfortunately the selected language is not available for your device.</value>
+  </data>
+  <data name="ProfileSettings_Delete_Error_Message" xml:space="preserve">
+    <value>Driving profile setting file {0} can not be deleted. Please check your file permissions.</value>
+  </data>
+  <data name="FirmwareFlag_Transmit_Error_Caption" xml:space="preserve">
+    <value>Transmission error.</value>
+  </data>
+  <data name="ShortErrorReport_ComponentInformation" xml:space="preserve">
+    <value>Components Information</value>
+  </data>
+  <data name="ProductionNumberIsMissing_Caption" xml:space="preserve">
+    <value>Production number is empty</value>
+  </data>
+  <data name="ConfigPanel_newParameter_Description" xml:space="preserve">
+    <value>New set of driving parameter</value>
+  </data>
+  <data name="ImageWarningNoPictureCaption" xml:space="preserve">
+    <value>No picture</value>
+  </data>
+  <data name="ErrorReport_DetailDocumentSubject" xml:space="preserve">
+    <value>Detailed error report</value>
+  </data>
+  <data name="ConfigPanel_parameterTransferPictureBoxToolTip" xml:space="preserve">
+    <value>Transfer parameter set to sMMI</value>
+  </data>
+  <data name="FIRMWARE_ACCU" xml:space="preserve">
+    <value>battery</value>
+  </data>
+  <data name="FailedToDeleteSettingsFile_Message" xml:space="preserve">
+    <value>Failed to delete {0}</value>
+  </data>
+  <data name="GuestUser_ApplicationExit_Message" xml:space="preserve">
+    <value>You need more rights to execute this application.
+The application is terminated.</value>
+  </data>
+  <data name="ApplicationAlreadyRunning_Caption" xml:space="preserve">
+    <value>Application is alreay running.</value>
+  </data>
+  <data name="ConfigPanel_profileTransferPictureBoxToolTip" xml:space="preserve">
+    <value>Transfer driving profile to sMMI</value>
+  </data>
+  <data name="ConfigPanel_parameterDeleteButton_Caption" xml:space="preserve">
+    <value>Delete parameter set</value>
+  </data>
+  <data name="DiagnosePanel_ImmobilizerInactive" xml:space="preserve">
+    <value>activate</value>
+  </data>
+  <data name="ConfigPanel_profileNameTextBox_MMI_Text" xml:space="preserve">
+    <value>Current sMMI driving profile</value>
+  </data>
+  <data name="ShortErrorReport_Battery" xml:space="preserve">
+    <value>Battery</value>
+  </data>
+  <data name="PARAMETER_ID_LIGTH_SENSOR_LEVELS" xml:space="preserve">
+    <value>light sensor levels</value>
+  </data>
+  <data name="PushAssistant_Warning_Caption" xml:space="preserve">
+    <value>ATTENTION</value>
+  </data>
+  <data name="ConfigPanel_Parameter_Name_Missing_Message" xml:space="preserve">
+    <value>Please set a name for the parameter.</value>
+  </data>
+  <data name="RingBuffer_Delete_Error_Caption" xml:space="preserve">
+    <value>Error while deleting</value>
+  </data>
+  <data name="ShortErrorReport_ReportCheckedCaption" xml:space="preserve">
+    <value>checked</value>
+  </data>
+  <data name="UpdatePanel_RemoveButtons_Text" xml:space="preserve">
+    <value>Firmware{0} on the sMMI</value>
+  </data>
+  <data name="PARAMETER_ID_DATE_TIME" xml:space="preserve">
+    <value>date and time</value>
+  </data>
+  <data name="neoSDiag_Update_Available_Install_Soon_Message" xml:space="preserve">
+    <value>Please install the update as soon as possible.</value>
+  </data>
+  <data name="MainWindow_englischToolStripMenuItem_Click_Caption" xml:space="preserve">
+    <value>Language setting</value>
+  </data>
+  <data name="DiagnosePanel_MotorSerialsNotMatch_Caption" xml:space="preserve">
+    <value>Motor serial numbers</value>
+  </data>
+  <data name="AboutBox_MessageBox_InvalidLicense_Caption" xml:space="preserve">
+    <value>Attention</value>
+  </data>
+  <data name="UpdateWorker_DownloadSuccess" xml:space="preserve">
+    <value>{0} downloaded successfully</value>
+  </data>
+  <data name="HelpPanel_UpdateFailedMessage" xml:space="preserve">
+    <value>Update failed. Please check your internet connection.</value>
+  </data>
+  <data name="UpdateWorker_NumOfUpdates" xml:space="preserve">
+    <value>{0} available</value>
+  </data>
+  <data name="AboutBox_MessageBox_InvalidLicense_Message" xml:space="preserve">
+    <value>The license key is invalid. License key was not changed!</value>
+  </data>
+  <data name="ConfigPanel_profileDeleteButton_Message" xml:space="preserve">
+    <value>Current driving profile will be deleted. Are you sure?</value>
+  </data>
+  <data name="PictureTranmission_Error_Caption" xml:space="preserve">
+    <value>Transmission error</value>
+  </data>
+  <data name="MMI_Image_Delete_Error_Caption" xml:space="preserve">
+    <value>Delete error</value>
+  </data>
+  <data name="MainWindow_germanToolStripMenuItem_Click_Caption" xml:space="preserve">
+    <value>Spracheinstellung</value>
+  </data>
+  <data name="FirmwareTransmissionSucceeded_Caption" xml:space="preserve">
+    <value>Firmware transmission succeeded</value>
+  </data>
+  <data name="ShortErrorReport_DiagnoseReportCaption" xml:space="preserve">
+    <value>Diagnose abridgment</value>
+  </data>
+  <data name="PdfReader_Not_Available_Message" xml:space="preserve">
+    <value>Please install a PDF Reader</value>
+  </data>
+  <data name="PARAMETER_ID_MMI_SPECIAL_DISPLAY_COLORS" xml:space="preserve">
+    <value>Eco and Boost color settings</value>
+  </data>
+  <data name="ParameterSettings_Delete_Error_Caption" xml:space="preserve">
+    <value>Delete error</value>
+  </data>
+  <data name="Activation_WebException" xml:space="preserve">
+    <value>Web exception</value>
+  </data>
+  <data name="MassConfigPanel_ToolTip_Profile_Transmission" xml:space="preserve">
+    <value>Transfer this driving profile to the sMMI</value>
+  </data>
+  <data name="UpdateWorker_Element_MMI" xml:space="preserve">
+    <value>sMMI firmware</value>
+  </data>
+  <data name="UpdateWorker_Element_DFI" xml:space="preserve">
+    <value>Battery DFI</value>
+  </data>
+  <data name="DiagnosePanel_FirmwareToolTipText" xml:space="preserve">
+    <value>sMMI:	{0}
+	Saved versions
+	Engine:	{1}
+	Battery:	{2}
+Engine:	{3}
+Battery:	{4}</value>
+  </data>
+  <data name="DiagnosePanel_ToolTip_Firmware_UpToDate" xml:space="preserve">
+    <value>Firmware is up to date.</value>
+  </data>
+  <data name="PARAMETER_ID_MOTOR_INFORMATION" xml:space="preserve">
+    <value>engine information</value>
+  </data>
+  <data name="AccuFirmwareTransmissionSucceeded_Message_911" xml:space="preserve">
+    <value>The firmware is now cached on the sMMI. Once you connect the sMMI to the next pedelec and turn on the system, the updates are applied to the battery and/or motor.
+Important: After applying the update please switch off the sMMI via the menu. Then please connect it again with your computer and check for further updates. Repeat this procedure until there are no more Updates available.</value>
+  </data>
+  <data name="HelpPanel_UpdateSuccessMessage" xml:space="preserve">
+    <value>Update was successfully.</value>
+  </data>
+  <data name="FirmwareFile_Delete_Error_Caption" xml:space="preserve">
+    <value>Delete error.</value>
+  </data>
+  <data name="DiagnosePanel_MessageBox_Redock_Needed_Message" xml:space="preserve">
+    <value>The setting will take effect as soon as the sMMI connected the next time with the bike.</value>
+  </data>
+  <data name="WrongFilePermission_Caption" xml:space="preserve">
+    <value>Wrong permission for directory.</value>
+  </data>
+  <data name="ConfigurationPanel_MassTrans_NoElement" xml:space="preserve">
+    <value>Please select an element for Auto Transfer</value>
+  </data>
+  <data name="PARAMETER_ID_SERVICE_INTERVAL" xml:space="preserve">
+    <value>service interval</value>
+  </data>
+  <data name="HelpPanel_UpdateCaption" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="ImageListFile_Write_Error_Message" xml:space="preserve">
+    <value>Image list file can not be written.</value>
+  </data>
+  <data name="PARAMETER_ID_CONTROL_INFORMATION" xml:space="preserve">
+    <value>control information</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>Unkown</value>
+  </data>
+  <data name="ConfigPanel_newProfile_Description" xml:space="preserve">
+    <value>New set of driving profile</value>
+  </data>
+  <data name="SaveSettingsQuestion_Message" xml:space="preserve">
+    <value>Do you want to save changes?</value>
+  </data>
+  <data name="ImageListFile_Write_Error_Caption" xml:space="preserve">
+    <value>Write error</value>
+  </data>
+  <data name="ConfigPanel_profileDescriptionRichTextBox_MMI_Text" xml:space="preserve">
+    <value>Current sMMI driving profile</value>
+  </data>
+  <data name="ParameterListFile_Write_Error_Caption" xml:space="preserve">
+    <value>Write error</value>
+  </data>
+  <data name="UpdatePanel_ProgressBar_ComponentsUpToDate" xml:space="preserve">
+    <value>Updated components</value>
+  </data>
+  <data name="ImageWarningNoPicture" xml:space="preserve">
+    <value>Please set a picture.</value>
+  </data>
+  <data name="Parameter_Checked" xml:space="preserve">
+    <value>active</value>
+  </data>
+  <data name="Parameter_Receive_Error_Caption" xml:space="preserve">
+    <value>Error while receiving.</value>
+  </data>
+  <data name="ParameterListFile_Write_Error_Message" xml:space="preserve">
+    <value>Parameter list file can not be written. Please check file permissions.</value>
+  </data>
+  <data name="PARAMETER_ID_MMI_SHUTDOWN_OVERTRAVEL" xml:space="preserve">
+    <value>shutdown, overtravel and brake switch</value>
+  </data>
+  <data name="LatestVersionFile_Write_Error_Message" xml:space="preserve">
+    <value>Latest version file can not be written. Please check file permissions.</value>
+  </data>
+  <data name="LatestVersionFile_Write_Error_Caption" xml:space="preserve">
+    <value>Write error.</value>
+  </data>
+  <data name="PARAMETER_ID_MMI_DEFAULT_SETTINGS" xml:space="preserve">
+    <value>default settings</value>
+  </data>
+  <data name="PARAMETER_ID_ACCU_INFORMATION" xml:space="preserve">
+    <value>battery information</value>
+  </data>
+  <data name="MainWindow_MaxSpeedAttention_Caption" xml:space="preserve">
+    <value>Attention</value>
+  </data>
+  <data name="DiagnosePanel_ImmobilizerActive" xml:space="preserve">
+    <value>activate</value>
+  </data>
+  <data name="MainWindow_englischToolStripMenuItem_Click_Message" xml:space="preserve">
+    <value>The changes will take effect on the next start.</value>
+  </data>
+  <data name="EditActualMMIData" xml:space="preserve">
+    <value>Edit actual sMMI data</value>
+  </data>
+  <data name="DiagnosePanel_MotorSerialsNotMatch_Message" xml:space="preserve">
+    <value>On the sMMI are errors of another engine stored. The last motor used is accurate.</value>
+  </data>
+  <data name="RingBuffer_Receive_Error_Caption" xml:space="preserve">
+    <value>Error while receiving.</value>
+  </data>
+  <data name="MMI_Image_Write_Error_Caption" xml:space="preserve">
+    <value>Write error</value>
+  </data>
+  <data name="ProxySettings_Information_Message" xml:space="preserve">
+    <value>New Proxy settings will be active after program has been restarted.</value>
+  </data>
+  <data name="PARAMETER_ID_MOTOR_SETTINGS" xml:space="preserve">
+    <value>engine settings</value>
+  </data>
+  <data name="ConfigPanel_parameterDeleteButton_Message" xml:space="preserve">
+    <value>Current parameter set will be deleted. Are you sure?</value>
+  </data>
+  <data name="UpdateWorker_InvalidLicense" xml:space="preserve">
+    <value>Abort. No valid license!</value>
+  </data>
+  <data name="FirmwareList_Info_ToolTip" xml:space="preserve">
+    <value>Show firmware information</value>
+  </data>
+  <data name="NoImage_RadioButton_Text" xml:space="preserve">
+    <value>No image</value>
+  </data>
+  <data name="ConfigPanel_newProfile_Label" xml:space="preserve">
+    <value>New driving profile</value>
+  </data>
+  <data name="ProfileListFile_Write_Error_Caption" xml:space="preserve">
+    <value>Write error</value>
+  </data>
+  <data name="ConfigPanel_FastConfig_MaxNumbers_Exceeded_Message" xml:space="preserve">
+    <value>Only {0} can be active at the same time.</value>
+  </data>
+  <data name="DiagnosePanel_ToolTip_NotHealthy" xml:space="preserve">
+    <value>Component has errors!</value>
+  </data>
+  <data name="FirmwareVersionTranmission_Error_Caption" xml:space="preserve">
+    <value>Error in transmission.</value>
+  </data>
+  <data name="ConfigPanel_FastConfig_MaxNumbers_Exceeded_Caption" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="neoSDiag_Update_Available_Caption" xml:space="preserve">
+    <value>Update available</value>
+  </data>
+  <data name="ConfigPanel_Delete_DefaultScreen_Message" xml:space="preserve">
+    <value>You can not delete default start screens.</value>
+  </data>
+  <data name="UpdatePanel_RemoveFirmware_Caption" xml:space="preserve">
+    <value>Delete firmware</value>
+  </data>
+  <data name="ProductionNumber_InputBox_Message" xml:space="preserve">
+    <value>Enter a new production number:</value>
+  </data>
+  <data name="MassConfigPanel_ToolTip_Profile_StartScreen" xml:space="preserve">
+    <value>Select start screen for this driving profile</value>
+  </data>
+  <data name="MassConfigPanel_MassReceive_Failed" xml:space="preserve">
+    <value>Parameter could not be read completely. 
+Production data won't be saved.</value>
+  </data>
+  <data name="ProductionNumber_Invalid_Message" xml:space="preserve">
+    <value>Invalid characters found in production number or exceeded maximum number of 255 characters. 
+Please use only following symbols: 
+A-Z a-z 0-9 _+-=.:,/#*~{}[]()</value>
+  </data>
+  <data name="License_Expired_Caption" xml:space="preserve">
+    <value>License expired</value>
+  </data>
+  <data name="RegInfoDialog_FillRequired_Message" xml:space="preserve">
+    <value>Please complete all required fields.</value>
+  </data>
+  <data name="PARAMETER_ID_BACKGROUND_BRIGHTNESS_LEVELS" xml:space="preserve">
+    <value>brightness levels</value>
+  </data>
+  <data name="BOOTLOADER_MOTOR" xml:space="preserve">
+    <value>engine</value>
+  </data>
+  <data name="UpdateWorker_Element_ConnectMMI" xml:space="preserve">
+    <value>connectMMI firmware</value>
+  </data>
+  <data name="UpdateWorker_ConnectingServer" xml:space="preserve">
+    <value>Connecting to server</value>
+  </data>
+  <data name="UpdateWorker_Element_neosDiag" xml:space="preserve">
+    <value>neo smartDiagnostic</value>
+  </data>
+  <data name="UpdateWorker_Element_Knowledge" xml:space="preserve">
+    <value>Knowledge Base</value>
+  </data>
+  <data name="DiagnosePanel_MessageBox_Redock_Needed_Caption" xml:space="preserve">
+    <value>Notice</value>
+  </data>
+  <data name="FirmwareVersionReceive_Error_Message" xml:space="preserve">
+    <value>Firmware version receive error for {0}. Please check the connection to the sMMI.</value>
+  </data>
+  <data name="UpdatePanel_Update_Components_MessageBox_Message" xml:space="preserve">
+    <value>Do you really want to update the firmware?</value>
+  </data>
+  <data name="ShortErrorReport_Actual_Kilometers" xml:space="preserve">
+    <value>Actual kilometers</value>
+  </data>
+  <data name="MMI_Image_Delete_Error_Message" xml:space="preserve">
+    <value>Image file {0} can not be deleted. Please check file permissions.</value>
+  </data>
+  <data name="FirmwareTransmissionSucceeded_Message" xml:space="preserve">
+    <value>The firmware is now cached on the sMMI. Once you connect the sMMI to the next pedelec and turn on the system, the updates are applied to the motor and / or battery.</value>
+  </data>
+  <data name="ShortErrorReport_Update_Recommended" xml:space="preserve">
+    <value>Update recommended</value>
+  </data>
+  <data name="UpdatePanel_DownloadProgressBar_AdditionalText" xml:space="preserve">
+    <value>File progress</value>
+  </data>
+  <data name="Parameter_Receive_Error_Message" xml:space="preserve">
+    <value>Error receiving '{0}'. Please check the connection to the sMMI.</value>
+  </data>
+  <data name="MassConfigPanel_MassReceive" xml:space="preserve">
+    <value>Parameters are read...</value>
+  </data>
+  <data name="FirmwareList_Transmit_ToolTip" xml:space="preserve">
+    <value>Transmit</value>
+  </data>
+  <data name="ImageWarningNoImage" xml:space="preserve">
+    <value>Please select an image first.</value>
+  </data>
+  <data name="PARAMETER_ID_MOTOR_CLIENT_STATE" xml:space="preserve">
+    <value>engine client state</value>
+  </data>
+  <data name="Parameter_Checking" xml:space="preserve">
+    <value>activate</value>
+  </data>
+  <data name="ConfigPanel_ToolTip_EditProfile" xml:space="preserve">
+    <value>edit driving profile</value>
+  </data>
+  <data name="PARAMETER_ID_MMI_PRODUCTION_INFORMATION" xml:space="preserve">
+    <value>sMMI production information</value>
+  </data>
+  <data name="UpdateWorker_StartET" xml:space="preserve">
+    <value>Start synchronization...</value>
+  </data>
+  <data name="PictureStartTranmission_Error_Message" xml:space="preserve">
+    <value>Picture transmission error. Please check the the connection to the sMMI.</value>
+  </data>
+  <data name="Activation_FileAccessException" xml:space="preserve">
+    <value>File access exception</value>
+  </data>
+  <data name="DiagnosePanel_FirmwareToolTipTitle" xml:space="preserve">
+    <value>Firmware Versions</value>
+  </data>
+  <data name="ToolTip_Title_Warning" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="PleaseConnect_Title" xml:space="preserve">
+    <value>Please connect your sMMI.</value>
+  </data>
+  <data name="ErrorReport_DetailErrorOverviewCaption" xml:space="preserve">
+    <value>Error overview</value>
+  </data>
+  <data name="FirmwareStartTranmission_Error_Message" xml:space="preserve">
+    <value>Firmware transmissions error for {0}. Please check the connection to the sMMI.</value>
+  </data>
+  <data name="FirmwareFlag_Receive_Error_Caption" xml:space="preserve">
+    <value>Error while receiving.</value>
+  </data>
+  <data name="no" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="ok" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="MassConfigPanel_MassTransmit_Failed_Caption" xml:space="preserve">
+    <value>Transmit error</value>
+  </data>
+  <data name="ProxySettings_Invalid_Uri_Message" xml:space="preserve">
+    <value>The proxy address contains invalid symbols.</value>
+  </data>
+  <data name="SaveSettingsQuestion_Caption" xml:space="preserve">
+    <value>Save changes</value>
+  </data>
+  <data name="FirmwareStartTranmission_Error_Caption" xml:space="preserve">
+    <value>Error in transmission.</value>
+  </data>
+  <data name="ProxySettings_Invalid_Uri_Caption" xml:space="preserve">
+    <value>Invalid symbols</value>
+  </data>
+  <data name="ConfigPanel_Profile_Name_Missing_Caption" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="ConfigPanel_ToolTip_DeleteProfile" xml:space="preserve">
+    <value>delete driving profile</value>
+  </data>
+  <data name="ConfigPanel_Update_DefaultParameter_Message" xml:space="preserve">
+    <value>You can not change a set default parameters.</value>
+  </data>
+  <data name="PictureEndTranmission_Error_Message" xml:space="preserve">
+    <value>Picture transmission error. Please check the the connection to the sMMI.</value>
+  </data>
+  <data name="ProfileListFile_Write_Error_Message" xml:space="preserve">
+    <value>Driving profile list file can not be written. Please check file permissions.</value>
+  </data>
+  <data name="UpdateFlag_Receive_Error_Caption" xml:space="preserve">
+    <value>Error while receiving.</value>
+  </data>
+  <data name="ConfigPanel_ScreenDelete_Message" xml:space="preserve">
+    <value>Current start screen will be deleted. Are you sure?</value>
+  </data>
+  <data name="RingBuffer_Delete_Error_Message" xml:space="preserve">
+    <value>Deleting error log failed. Please check connection to the sMMI.</value>
+  </data>
+  <data name="ConfigPanel_ScreenDelete_Caption" xml:space="preserve">
+    <value>Delete start screen</value>
+  </data>
+  <data name="yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="MainWindow_MMIConnected" xml:space="preserve">
+    <value>sMMI connected</value>
+  </data>
+  <data name="MassConfigPanel_ToolTip_Parameter_Transmission" xml:space="preserve">
+    <value>Transfer this set of parameters to the sMMI</value>
+  </data>
+  <data name="MassConfigPanel_ToolTip_Parameter_FastTransmission" xml:space="preserve">
+    <value>Select this set of parameteres for the auto transfer mode</value>
+  </data>
+  <data name="ToolTip_Title_Information" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="ShortErrorReport_RecommendedProcedureCaption" xml:space="preserve">
+    <value>Recommended Procedure</value>
+  </data>
+  <data name="RingBuffer_Receive_Error_Message" xml:space="preserve">
+    <value>Receiving error log failed. Please check connection to the sMMI.</value>
+  </data>
+  <data name="MMI_Image_Write_Error_Message" xml:space="preserve">
+    <value>sMMI image can not be written. Please check file permissions.</value>
+  </data>
+  <data name="ImageWarningNoName" xml:space="preserve">
+    <value>Please set a name.</value>
+  </data>
+  <data name="ParameterWheelCircumference_Message" xml:space="preserve">
+    <value>Make sure you enter the correct wheel circumference because this parameter has a large influence on the driving system.
+Among other things in an incorrect entry, neither the correct speed, nor the correct range are displayed.
+By changing the wheel circumference, they also affect the speed of the overall system provides up to which the motor power assistance.
+The top speed for the power assistance may StVZO for Pedelcs 25 km / h do not exceed, as the vehicle deemed more motor vehicle insurance and thus will.
+The resulting from improper alteration or liability relating to insurance that results in accident lie with the person who made ​​the change.
+This becomes the distributor of a non-compliant vehicle.
+Changes of circumference are logged, so that's always traceable, who made when the change.</value>
+  </data>
+  <data name="ProxySettings_Information_Caption" xml:space="preserve">
+    <value>New Proxy settings</value>
+  </data>
+  <data name="UpdateWorker_UpdateDone" xml:space="preserve">
+    <value>Update done!</value>
+  </data>
+  <data name="UpdateWorker_Element_Motor" xml:space="preserve">
+    <value>Motor firmware</value>
+  </data>
+  <data name="ConfigPanel_profileDeleteButton_Caption" xml:space="preserve">
+    <value>Delete driving profile</value>
+  </data>
+  <data name="Reactivation_Warning_MessageBox_Message" xml:space="preserve">
+    <value>Please check for updates.</value>
+  </data>
+  <data name="ImageLoad_Error_Message" xml:space="preserve">
+    <value>Image can not be loaded. File format is invalid.</value>
+  </data>
+  <data name="Reactivation_Warning_MessageBox_Caption" xml:space="preserve">
+    <value>Check for Updates</value>
+  </data>
+  <data name="MainWindow_germanToolStripMenuItem_Click_Message" xml:space="preserve">
+    <value>Die Änderungen werden beim nächsten Start übernommen.</value>
+  </data>
+  <data name="DiagnosePanel_DeleteErrorLog_Caption" xml:space="preserve">
+    <value>Deleting error logs</value>
+  </data>
+  <data name="ImageLoad_Error_Caption" xml:space="preserve">
+    <value>Image Error</value>
+  </data>
+  <data name="ConfigPanel_ToolTip_MassConfigParameter" xml:space="preserve">
+    <value>set active or inactve for auto transfer</value>
+  </data>
+  <data name="FIRMWARE_MOTOR" xml:space="preserve">
+    <value>engine</value>
+  </data>
+  <data name="UpdatePanel_WrongMmiFirmwareVersion_Caption" xml:space="preserve">
+    <value>Update warning</value>
+  </data>
+  <data name="UpdateFlag_Transmit_Error_Message" xml:space="preserve">
+    <value>Rebooting the sMMI failed. Please check the connection to the sMMI.</value>
+  </data>
+  <data name="neoSDiag_Update_Available_Message" xml:space="preserve">
+    <value>Update is available. Do you want to install it now?</value>
+  </data>
+  <data name="PARAMETER_ID_OEMID" xml:space="preserve">
+    <value>OEM ID</value>
+  </data>
+  <data name="MassConfigPanel_MassTransmit_Failed" xml:space="preserve">
+    <value>Parameters were not transmitted completely.</value>
+  </data>
+  <data name="ProductionNumber_Invalid_Caption" xml:space="preserve">
+    <value>Invalid production number</value>
+  </data>
+  <data name="ShortReport_SOH_NOK" xml:space="preserve">
+    <value>nOK</value>
+  </data>
+  <data name="RegInfoDialog_FillRequired_Caption" xml:space="preserve">
+    <value>Required fields</value>
+  </data>
+  <data name="ConfigPanel_Update_DefaultProfile_Caption" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="UpdateWorker_LostConnection" xml:space="preserve">
+    <value>Lost connection to server!</value>
+  </data>
+  <data name="UpdatePanel_Motor_Bootloader_Delete" xml:space="preserve">
+    <value>Deleting motor bootloader</value>
+  </data>
+  <data name="PARAMETER_ID_MMI_DRIVE_SETTINGS" xml:space="preserve">
+    <value>drive setttings</value>
+  </data>
+  <data name="ConfigPanel_Update_DefaultProfile_Message" xml:space="preserve">
+    <value>You can not change default driving profiles.</value>
+  </data>
+  <data name="UpdatePanel_Motor_Firmware_Delete" xml:space="preserve">
+    <value>Deleting motor firmware</value>
+  </data>
+  <data name="ConfigPanel_newParameter_Label" xml:space="preserve">
+    <value>New parameter</value>
+  </data>
+  <data name="FirmwareFlag_Transmit_Error_Message" xml:space="preserve">
+    <value>Settings can not be saved in the sMMI. Changes will be lost. Please check the connection to sMMI and try again.</value>
+  </data>
+  <data name="ConfigPanel_ToolTip_EditParameter" xml:space="preserve">
+    <value>edit set of parameters</value>
+  </data>
+  <data name="DiagnosePanel_LockOpenToolTip" xml:space="preserve">
+    <value>sMMI and motor are not locked</value>
+  </data>
+  <data name="TestMode_Firmware_ManualAdded" xml:space="preserve">
+    <value>manually added</value>
+  </data>
+  <data name="UpdatePanel_Update_Components_MessageBox_Caption" xml:space="preserve">
+    <value>Update components</value>
+  </data>
+  <data name="Parameter_Transmission_Error_Message" xml:space="preserve">
+    <value>Error transmitting '{0}' . Please check the connection to the sMMI.</value>
+  </data>
+  <data name="Parameter_Transmission_Error_Caption" xml:space="preserve">
+    <value>Transmission error</value>
+  </data>
+  <data name="ConfigPanel_Profile_Name_Missing_Message" xml:space="preserve">
+    <value>Please set a name for the driving profile</value>
+  </data>
+  <data name="PushAssistant_Warning_Message" xml:space="preserve">
+    <value>The speed for the pushing aid was changed to a value greater than 6 km/h. The top speed for the pushing aid must not exceed according to German Road Traffic Licensing Regulations for Pedelecs 6 km/h. In some countries, however, a higher speed and is approved in individual cases to examine the compatibility of the local rules and legislation. A drive has been encoded as a pedelec for use in bicycles, hiring a sliding speed over 6 km/h for safety automatically to fully disable the sliding aids function.
+
+The resulting from improper alteration or liability relating to insurance related accidents lies with the person who made ​​the change. This is the distributor of a non-compliant vehicle. Changes in the sliding speed are logged, so that always comprehensible, is one who has made ​​and at what point changes.</value>
+  </data>
+  <data name="ConfigPanel_ToolTip_EditStartScreen" xml:space="preserve">
+    <value>edit start screen</value>
+  </data>
+  <data name="SystemOutOfMemory_Message" xml:space="preserve">
+    <value>The operation was canceled.
+Please restart the application and then try the operation again.</value>
+  </data>
+  <data name="FatalError_Message" xml:space="preserve">
+    <value>A Fatal Error was detected and logged.
+Click the OK button to restart the application</value>
+  </data>
+  <data name="SystemOutOfMemory_Caption" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Update_Firmware_Delete_MessageBox_Caption" xml:space="preserve">
+    <value>Delete Firmware</value>
+  </data>
+  <data name="ConfigPanel_Delete_DefaultParameter_Message" xml:space="preserve">
+    <value>You can not delete default parameters.</value>
+  </data>
+  <data name="ProfileSettings_Delete_Error_Caption" xml:space="preserve">
+    <value>Delete error</value>
+  </data>
+  <data name="Update_Firmware_Delete_MessageBox_Message" xml:space="preserve">
+    <value>Do you really want to delete selected firmware?</value>
+  </data>
+  <data name="ParameterWheelCircumference_Caption" xml:space="preserve">
+    <value>ATTENTION</value>
+  </data>
+  <data name="FirmwareEndTranmission_Error_Caption" xml:space="preserve">
+    <value>Error in transmission.</value>
+  </data>
+  <data name="ConfigPanel_Delete_DefaultProfile_Caption" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="ParameterPanel_State_Details" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="PictureTranmission_Error_Message" xml:space="preserve">
+    <value>Picture transmission error. Please check the the connection to the sMMI.</value>
+  </data>
+  <data name="FirmwareEndTranmission_Error_Message" xml:space="preserve">
+    <value>Firmware transmissions error for {0}. Please check the connection to the sMMI.</value>
+  </data>
+  <data name="PARAMETER_ID_REST_OF_RANGE" xml:space="preserve">
+    <value>rest of range</value>
+  </data>
+  <data name="ShortErrorReport_Hardware_Version" xml:space="preserve">
+    <value>Hardware version</value>
+  </data>
+  <data name="PARAMETER_ID_ACCU_CLIENT_STATE" xml:space="preserve">
+    <value>battery client state</value>
+  </data>
+  <data name="Actual_ProductionNumber_Label" xml:space="preserve">
+    <value>Production number:</value>
+  </data>
+  <data name="DiagnosePanel_sDiagButton_ok" xml:space="preserve">
+    <value>smartDiagnostic is up to date</value>
+  </data>
+  <data name="ProductionNumber_InputBox_Caption" xml:space="preserve">
+    <value>Change production number</value>
+  </data>
+  <data name="FirmwareVersionTranmission_Error_Message" xml:space="preserve">
+    <value>Firmware version transmissions error for {0}. Please check the connection to the sMMI.</value>
+  </data>
+  <data name="SOUND_FILE_INVALID_Message" xml:space="preserve">
+    <value>The chosen file cannot be played. Please select another file.</value>
+  </data>
+  <data name="License_Expired_Message" xml:space="preserve">
+    <value>Your license is expired! Please do the activation again.</value>
+  </data>
+  <data name="ImageWarningNoImageCaption" xml:space="preserve">
+    <value>Select an image</value>
+  </data>
+  <data name="UpdateWorker_ProcessFailed" xml:space="preserve">
+    <value>failed</value>
+  </data>
+  <data name="ShortErrorReport_MMI" xml:space="preserve">
+    <value>sMMI</value>
+  </data>
+  <data name="PARAMETER_ID_MOTOR_VERSION_INFORMATION" xml:space="preserve">
+    <value>engine version information</value>
+  </data>
+  <data name="MainWindow_MMINotConnected" xml:space="preserve">
+    <value>sMMI not connected</value>
+  </data>
+  <data name="ErrorOverviewPanel_Report_SerialNumber_Text" xml:space="preserve">
+    <value>Error engine with serial number {0}
+{1} at {2} km
+error number {3}</value>
+  </data>
+  <data name="PARAMETER_ID_CUMULATIVE_SPEED_AND_TIME" xml:space="preserve">
+    <value>cumulative speed and time</value>
+  </data>
+  <data name="ParameterPanel_IdenticalColor_Caption" xml:space="preserve">
+    <value>Identical color</value>
+  </data>
+  <data name="TestMode_Firmware_ManualAdded_DirCreateFailed" xml:space="preserve">
+    <value>Can not create directory.</value>
+  </data>
+  <data name="ParameterMaxAssistanceSpeed_Message" xml:space="preserve">
+    <value>Make sure that you enter the correct maximum speed support, because this parameter has a large influence on the driving system.
+The top speed for the power assistance may StVZO for Pedelecs 25 km / h do not exceed, as the vehicle deemed more motor vehicle insurance and thus will.
+The resulting from improper alteration or liability relating to insurance that results in accident lie with the person who made ​​the change.
+This becomes the distributor of a non-compliant vehicle.
+Changes in the maximum support rate will be logged, so that always comprehensible, is who made when the change.</value>
+  </data>
+  <data name="DiagnosePanel_FirmwareButton_ok" xml:space="preserve">
+    <value>Firmware is up to date</value>
+  </data>
+  <data name="List_Write_Error_Message" xml:space="preserve">
+    <value>Firmware list file can not be written. Please check file permissions.</value>
+  </data>
+  <data name="ShortErrorReport_Neo_Version" xml:space="preserve">
+    <value>Version of neo sDiag</value>
+  </data>
+  <data name="List_Write_Error_Caption" xml:space="preserve">
+    <value>Write error.</value>
+  </data>
+  <data name="ProxySettings_Invalid_Credential_Message" xml:space="preserve">
+    <value>The authentication information contains invalid symbols.</value>
+  </data>
+  <data name="DiagnosePanel_DeleteErrorLog_Question" xml:space="preserve">
+    <value>Do you really want to delete all error logs of the sMMI?</value>
+  </data>
+  <data name="FirmwareVersionReceive_Error_Caption" xml:space="preserve">
+    <value>Error in transmission.</value>
+  </data>
+  <data name="ProxySettings_Invalid_Credential_Caption" xml:space="preserve">
+    <value>Invalid symbols</value>
+  </data>
+  <data name="TestMode_Firmware_ManualAdded_CopyFailed" xml:space="preserve">
+    <value>Can not copy file.</value>
+  </data>
+  <data name="UpdateWorker_StartDownload" xml:space="preserve">
+    <value>Start {0} download ...</value>
+  </data>
+  <data name="Update_Firmware_Transmit_MessageBox_Message" xml:space="preserve">
+    <value>Do you really want to transmit selected firmware?</value>
+  </data>
+  <data name="DiagnosePanel_DeleteErrorLog_SuccessMessage" xml:space="preserve">
+    <value>All error logs of the sMMI were deleted successfully.</value>
+  </data>
+  <data name="ShortErrorReport_Comment" xml:space="preserve">
+    <value>Comment:</value>
+  </data>
+  <data name="MmiSettingReport_DocumentSubject" xml:space="preserve">
+    <value>Actual sMMI settings report</value>
+  </data>
+  <data name="Report_NoErrorMessage_Text" xml:space="preserve">
+    <value>No errors available</value>
+  </data>
+  <data name="LanguageInvalid_ParameterPanel_Caption" xml:space="preserve">
+    <value>Language not available</value>
+  </data>
+  <data name="UpdatePanel_ProgressBar_MotorBootloader" xml:space="preserve">
+    <value>Motor bootloader</value>
+  </data>
+  <data name="ProfileSettings_Write_Error_Caption" xml:space="preserve">
+    <value>Write error.</value>
+  </data>
+  <data name="UpdatePanel_FirmwareInstalled" xml:space="preserve">
+    <value>installed</value>
+  </data>
+  <data name="FailedToDeleteSettingsFile_Caption" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="DiagnosePanel_DFI_Safety_Caption" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="PARAMETER_ID_MOTOR_BATTERY_INFORMATION" xml:space="preserve">
+    <value>engine battery information</value>
+  </data>
+  <data name="PARAMETER_ID_ACTUAL_LIGHT_SENSOR_VALUE" xml:space="preserve">
+    <value>actual light sensor value</value>
+  </data>
+  <data name="DiagnosePanel_DFI_Safety_Message" xml:space="preserve">
+    <value>No battery information available!
+Please dock the sMMI on the bike and turn it off over the menu!</value>
+  </data>
+  <data name="cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="ShortErrorReport_DiagnoseTableCaption" xml:space="preserve">
+    <value>Error description</value>
+  </data>
+  <data name="ConfigPanel_Parameter_Name_Missing_Caption" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="DiagnosePanel_ToolTip_Firmware_NotUpToDate" xml:space="preserve">
+    <value>Firmware is not up to date. An update is available.</value>
+  </data>
+  <data name="ShortErrorReport_ServiceOrder" xml:space="preserve">
+    <value>Service Order</value>
+  </data>
+  <data name="neoSDiag_Update_Available_Install_Soon_Caption" xml:space="preserve">
+    <value>Update available</value>
+  </data>
+  <data name="UpdatePanel_RemoveFirmware_Message" xml:space="preserve">
+    <value>Do you really want to delete firmware on the sMMI?</value>
+  </data>
+  <data name="ConfigPanel_ToolTip_DeleteParameter" xml:space="preserve">
+    <value>delete set of parameters</value>
+  </data>
+  <data name="ErrorReport_DetailPageCaption" xml:space="preserve">
+    <value>State of the system before</value>
+  </data>
+  <data name="ConfigPanel_parameterNameTextBox_MMI_Text" xml:space="preserve">
+    <value>Current sMMI parameters</value>
+  </data>
+  <data name="UpdateWorker_ReActivation" xml:space="preserve">
+    <value>Start re-activation ...</value>
+  </data>
+  <data name="UpdateWorker_ServerNotReachable" xml:space="preserve">
+    <value>Server not reachable!</value>
+  </data>
+  <data name="ShortErrorReport_ServiceReport" xml:space="preserve">
+    <value>Service Report</value>
+  </data>
+  <data name="ConfigPanel_Delete_DefaultProfile_Message" xml:space="preserve">
+    <value>You can not delete default driving profiles.</value>
+  </data>
+  <data name="FirmwareTranmission_Error_Message" xml:space="preserve">
+    <value>Firmware transmissions error for {0}. Please check the connection to the sMMI.</value>
+  </data>
+  <data name="UpdatePanel_FirmwareDeactived" xml:space="preserve">
+    <value>deactivated</value>
+  </data>
+  <data name="FirmwareTranmission_Error_Caption" xml:space="preserve">
+    <value>Error in transmission.</value>
+  </data>
+  <data name="UpdateWorker_ProcessDone" xml:space="preserve">
+    <value>done</value>
+  </data>
+  <data name="MainWindow_MMIConnectionFailed_Message" xml:space="preserve">
+    <value>Failed to connect to sMMI.</value>
+  </data>
+  <data name="UpdateWorker_StartUpdate" xml:space="preserve">
+    <value>Start {0} Update ...</value>
+  </data>
+  <data name="ProxySettings_Write_Error_Caption" xml:space="preserve">
+    <value>Write error</value>
+  </data>
+  <data name="UpdateWorker_Element_Profil" xml:space="preserve">
+    <value>Profile</value>
+  </data>
+  <data name="ShortErrorReport_Software_Version" xml:space="preserve">
+    <value>Software version</value>
+  </data>
+  <data name="TestMode_Firmware_ManualAdded_Done" xml:space="preserve">
+    <value>Added new firmware to the list.</value>
+  </data>
+  <data name="ProxySettings_Write_Error_Message" xml:space="preserve">
+    <value>Proxy setting can not be saved.</value>
+  </data>
+  <data name="UpdatePanel_WrongMmiFirmwareVersion_Message" xml:space="preserve">
+    <value>First you have to update the sMMI. Otherwise the firmware won't be transmitted properly.</value>
+  </data>
+  <data name="MassConfigPanel_MassReceive_Done" xml:space="preserve">
+    <value>Parameters were read.</value>
+  </data>
+  <data name="ParameterSettings_Delete_Error_Message" xml:space="preserve">
+    <value>Parameter setting file {0} can not be deleted. Please check file permissions.</value>
+  </data>
+  <data name="PARAMETER_ID_ACCU_VERSION_INFORMATION" xml:space="preserve">
+    <value>battery version information</value>
+  </data>
+  <data name="MassConfigPanel_MassReceive_Failed_Caption" xml:space="preserve">
+    <value>Read error</value>
+  </data>
+  <data name="Activation_Failed_Caption" xml:space="preserve">
+    <value>Activation error</value>
+  </data>
+  <data name="ShortErrorReport_Modelyear" xml:space="preserve">
+    <value>Model year</value>
+  </data>
+  <data name="TestMode_Firmware_ManualAdded_AlreadyExits" xml:space="preserve">
+    <value>File already exists.</value>
+  </data>
+  <data name="Activation_Failed_Message" xml:space="preserve">
+    <value>Activation failed. Please check your license key.</value>
+  </data>
+  <data name="ParameterSettings_Write_Error_Caption" xml:space="preserve">
+    <value>Write error</value>
+  </data>
+  <data name="FirmwareFile_Delete_Error_Message" xml:space="preserve">
+    <value>Firmware file {0} can not be deleted. Please check file permissions.</value>
+  </data>
+  <data name="ShortReport_SOH_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="ParameterSettings_Write_Error_Message" xml:space="preserve">
+    <value>Parameter settings file can not be written. Please check file permissions.</value>
+  </data>
+  <data name="ErrorReport_DetailDocumentTitle" xml:space="preserve">
+    <value>Error report</value>
+  </data>
+  <data name="ProductionNumberIsMissing_Message" xml:space="preserve">
+    <value>Please first enter a production number.</value>
+  </data>
+  <data name="ConfigPanel_ToolTip_MassConfigProfile" xml:space="preserve">
+    <value>set active or inactve for driving profile transfer</value>
+  </data>
+  <data name="FirmwareFlag_Receive_Error_Message" xml:space="preserve">
+    <value>Can not receive the state of the sMMI. Please check the connection to the sMMI.</value>
+  </data>
+  <data name="UpdateWorker_StartExtraction" xml:space="preserve">
+    <value>Start extracting of {0} ...</value>
+  </data>
+  <data name="ApplicationAlreadyRunning_Message" xml:space="preserve">
+    <value>Please close the application in order to be able to start again. This start of the application will exit now.</value>
+  </data>
+  <data name="GuestUser_ApplicationExit_Caption" xml:space="preserve">
+    <value>The application is terminated</value>
+  </data>
+  <data name="ProfileSettings_Write_Error_Message" xml:space="preserve">
+    <value>Driving profile settings file can not be written. Please check file permissions.</value>
+  </data>
+  <data name="Update_Firmware_Transmit_MessageBox_Caption" xml:space="preserve">
+    <value>Transmit Firmware</value>
+  </data>
+  <data name="ConfigPanel_Update_DefaultScreen_Caption" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="ErrorReport_DetailSensorDataCaption" xml:space="preserve">
+    <value>Sensors states</value>
+  </data>
+  <data name="Configuration_Profile" xml:space="preserve">
+    <value>Profile</value>
+  </data>
+  <data name="Parameter_Protocol_Value_Exception_Message" xml:space="preserve">
+    <value>The value of '{0}' was out the protocol range. Please check the connection to the sMMI.</value>
+  </data>
+  <data name="PARAMETER_ID_MMI_DISPLAY_COLORS" xml:space="preserve">
+    <value>sMMI color settings</value>
+  </data>
+  <data name="RegInfoDialog_InvalidEMail_Message" xml:space="preserve">
+    <value>The entered eMail address is invalid.</value>
+  </data>
+</root>

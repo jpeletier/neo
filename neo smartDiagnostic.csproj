@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\Jpel\Downloads\neo smartDiagnostic\neo smartDiagnostic.exe-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{35E2AC38-2EA5-4E33-A26B-D6C519A46E8E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>neo smartDiagnostic</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <ApplicationVersion>3.3.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>ZerroWare</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FileHandling">
+      <HintPath>lib\FileHandling.dll</HintPath>
+    </Reference>
+    <Reference Include="MMI">
+      <HintPath>lib\MMI.dll</HintPath>
+    </Reference>
+    <Reference Include="MigraDoc.DocumentObjectModel">
+      <HintPath>lib\MigraDoc.DocumentObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Reports">
+      <HintPath>lib\Reports.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="UIElements">
+      <HintPath>lib\UIElements.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ProgramInstallerClass.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="KnowledgePanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BikeAnimation.cs" />
+    <Compile Include="BikeAnimationEventArgs.cs" />
+    <Compile Include="WelcomePanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="StartScreenPictureBoxTags.cs" />
+    <Compile Include="ProxySettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainWindowEventArgs.cs" />
+    <Compile Include="ImagePreview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HttpAccess.cs" />
+    <Compile Include="HelperClass.cs" />
+    <Compile Include="HashGenerating.cs" />
+    <Compile Include="Update.cs" />
+    <Compile Include="UpdateInformation.cs" />
+    <Compile Include="ParameterPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ParameterPanelEventArgs.cs" />
+    <Compile Include="ConfigurationPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NewsDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomExceptionHandler.cs" />
+    <Compile Include="SettingsPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NewsPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Activation.cs" />
+    <Compile Include="MMIData.cs" />
+    <Compile Include="LicenseKeyDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DiagnosePanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ProfilePanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FirstStartDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HelpPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SplashScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MMITransceiver.cs" />
+    <Compile Include="FinishSound.cs" />
+    <Compile Include="ActivationInformation.cs" />
+    <Compile Include="UniqueError.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="SelectStartScreenDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ErrorOverviewPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GlobalResource.cs" />
+    <Compile Include="UpdateWorker.cs" />
+    <Compile Include="UpdateWorkerEventArgs.cs" />
+    <Compile Include="Properties\Resources.cs" />
+    <Compile Include="Properties\Settings.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ding" />
+    <Resource Include="easteregg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ConfigurationPanel.resx" />
+    <EmbeddedResource Include="DiagnosePanel.resx" />
+    <EmbeddedResource Include="ErrorOverviewPanel.resx" />
+    <EmbeddedResource Include="FirstStartDialog.resx" />
+    <EmbeddedResource Include="GlobalResource.resx" />
+    <EmbeddedResource Include="HelpPanel.resx" />
+    <EmbeddedResource Include="ImagePreview.resx" />
+    <EmbeddedResource Include="KnowledgePanel.resx" />
+    <EmbeddedResource Include="LicenseKeyDialog.resx" />
+    <EmbeddedResource Include="MainWindow.resx" />
+    <EmbeddedResource Include="NewsDialog.resx" />
+    <EmbeddedResource Include="NewsPanel.resx" />
+    <EmbeddedResource Include="ParameterPanel.resx" />
+    <EmbeddedResource Include="ProfilePanel.resx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProxySettings.resx" />
+    <EmbeddedResource Include="SelectStartScreenDialog.resx" />
+    <EmbeddedResource Include="SettingsPanel.resx" />
+    <EmbeddedResource Include="SplashScreen.resx" />
+    <EmbeddedResource Include="WelcomePanel.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
