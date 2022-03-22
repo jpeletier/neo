@@ -168,6 +168,7 @@ namespace ZerroWare
 
     private void keyButton_Click(object sender, EventArgs e)
     {
+            return;
       ActivationInformation.SetLicenseKey("");
       int num = (int) new LicenseKeyDialog().ShowDialog((IWin32Window) this);
       this.Dispose();

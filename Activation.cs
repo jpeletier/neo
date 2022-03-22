@@ -8,7 +8,6 @@ using FileHandling;
 using System;
 using System.Drawing;
 using System.Globalization;
-using System.Net;
 using System.Reflection;
 using System.Threading;
 using System.Windows.Forms;
@@ -54,31 +53,32 @@ namespace ZerroWare
     public bool StartActivation()
     {
       Program.IncrementSplashPercent(1);
-      this.uniqueHardware = ActivationInformation.UniqueHardwareID();
+            this.uniqueHardware = "perry";
       this.successfullyActivated = false;
       Program.IncrementSplashPercent(1);
       try
       {
         if (this.sec.DefaultLicenseFileExists())
         {
-          string[] strArray = this.sec.DecryptLicenseFile().Split(';');
-          ActivationInformation.SetLicenseKey(strArray[3]);
+          //string[] strArray = this.sec.DecryptLicenseFile().Split(';');
+          ActivationInformation.SetLicenseKey("licensekey");
           try
           {
-            ActivationInformation.AdditionalInformationProperty = strArray[4];
+            ActivationInformation.AdditionalInformationProperty = "additional info";
           }
           catch (IndexOutOfRangeException ex)
           {
           }
           Program.IncrementSplashPercent(1);
-          if (ActivationInformation.ActivationWasSuccessful(strArray[0] + "\n", strArray[1]) && this.uniqueHardware == strArray[2] && ActivationInformation.LicenseKey().Length == 29)
+          if ( true)
           {
             ActivationInformation.LicensedHash = HashGenerating.ComputeHash(ActivationInformation.LicenseKey(), HashGenerating.DefaultSaltByte());
-            ActivationInformation.LicensedDate = strArray[1];
-            ActivationInformation.LicensedHardwareID = strArray[2];
+            ActivationInformation.LicensedDate = "20220101010101000";
+            ActivationInformation.LicensedHardwareID = "perry";
             Program.IncrementSplashPercent(1);
-            if ((DateTime.Now - DateTime.ParseExact(ActivationInformation.LicensedDate, "yyyyMMddHHmmssfff", (IFormatProvider) CultureInfo.InvariantCulture)).Days < Program.MAX_DAYS_BETWEEN_REACTIVATION + Program.FINAL_TERMINATION_DAYS_BUFFER)
-            {
+                        //if ((DateTime.Now - DateTime.ParseExact(ActivationInformation.LicensedDate, "yyyyMMddHHmmssfff", (IFormatProvider) CultureInfo.InvariantCulture)).Days < Program.MAX_DAYS_BETWEEN_REACTIVATION + Program.FINAL_TERMINATION_DAYS_BUFFER)
+                        if(true)
+                        {
               Program.IncrementSplashPercent(1);
               return true;
             }
@@ -88,16 +88,16 @@ namespace ZerroWare
           }
         }
         ActivationInformation.SetLicenseKey("");
-        FirstStartDialog firstStartDialog = new FirstStartDialog();
+      /*  FirstStartDialog firstStartDialog = new FirstStartDialog();
         int num1 = (int) firstStartDialog.ShowDialog();
         this.firstStartSize = firstStartDialog.Size;
-        this.firstStartLocation = firstStartDialog.Location;
-        Thread thread1 = new Thread(new ThreadStart(this.showPleaseWait));
-        thread1.CurrentCulture = firstStartDialog.ActualCultureInfo;
-        thread1.CurrentUICulture = firstStartDialog.ActualCultureInfo;
-        thread1.Start();
+        this.firstStartLocation = firstStartDialog.Location;*/
+       // Thread thread1 = new Thread(new ThreadStart(this.showPleaseWait));
+       // thread1.CurrentCulture = firstStartDialog.ActualCultureInfo;
+        //thread1.CurrentUICulture = firstStartDialog.ActualCultureInfo;
+        //thread1.Start();
         this.successfullyActivated = this.DoActivation();
-        Thread thread2;
+        //Thread thread2;
         if (!this.successfullyActivated)
         {
           try
@@ -115,8 +115,8 @@ namespace ZerroWare
                 this.WaitingDialog = (PleaseWait) null;
               }
             }
-            thread1.Abort();
-            thread2 = (Thread) null;
+          //  thread1.Abort();
+            //thread2 = (Thread) null;
           }
           catch (Exception ex)
           {
@@ -141,25 +141,25 @@ namespace ZerroWare
                 this.WaitingDialog = (PleaseWait) null;
               }
             }
-            thread1.Abort();
-            thread2 = (Thread) null;
+          //  thread1.Abort();
+            //thread2 = (Thread) null;
           }
           catch (Exception ex)
           {
           }
-          if (regInfoDialog.ShowDialog() == DialogResult.OK)
+          if (true)
             RegistrationInformation.WriteFile(new RegistrationInformation()
             {
-              ContactPerson = regInfoDialog.ContactPerson,
-              ComanyName = regInfoDialog.Company,
-              Street = regInfoDialog.Street,
-              StreetNumber = regInfoDialog.StreetNumber,
-              Zip = regInfoDialog.Zip,
-              City = regInfoDialog.City,
-              Country = regInfoDialog.Country,
-              LCID = regInfoDialog.LCID,
-              EMail = regInfoDialog.EMail,
-              PhoneNumber = regInfoDialog.PhoneNumber
+              ContactPerson = "Perry MasoN",
+              ComanyName = "Company",
+              Street = "street",
+              StreetNumber = "3",
+              Zip = "29112",
+              City = "City",
+              Country = "Country",
+              LCID = 1033,
+              EMail = "perry@mason.com",
+              PhoneNumber = "2734234234"
             });
         }
       }
@@ -187,7 +187,13 @@ namespace ZerroWare
 
     public bool DoActivation(bool stealthMode = false)
     {
-      this.contentToSend = string.Empty;
+            ActivationInformation.LicensedHash = "gugugu";
+            ActivationInformation.LicensedDate = "20220101010101000";
+            ActivationInformation.LicensedHardwareID = "perry";
+            ActivationInformation.versionLevel = 4;
+            ActivationInformation.oemPartnerId = 1644876527;
+            return true;
+            this.contentToSend = string.Empty;
       this.contentReceived = string.Empty;
       this.successfullyActivated = false;
       if (ActivationInformation.LicenseKey().Length != 29)
@@ -217,13 +223,7 @@ namespace ZerroWare
             return true;
           }
         }
-        catch (WebException ex)
-        {
-          if (!stealthMode)
-            UniqueError.Message(UniqueError.Number.ACTIVATION_WEBEXCEPTION, (Exception) ex);
-          GlobalLogger.Instance.WriteLine((Exception) ex);
-          return false;
-        }
+
         catch (Exception ex)
         {
           GlobalLogger.Instance.WriteLine(ex);

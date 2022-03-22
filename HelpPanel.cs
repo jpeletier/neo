@@ -157,6 +157,7 @@ namespace ZerroWare
 
     private void changeLicenseButton_Click(object sender, EventArgs e)
     {
+            return;
       if (new LicenseKeyDialog().ShowDialog() != DialogResult.OK)
         return;
       HelperClass.DoEvents();

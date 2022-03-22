@@ -184,5 +184,8 @@
     <EmbeddedResource Include="SplashScreen.resx" />
     <EmbeddedResource Include="WelcomePanel.resx" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitignore" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -148,6 +148,7 @@ namespace ZerroWare
       this.UpdateStyles();
       Program.SetSplashPercent(99);
       this.ShowMaxSpeedWarning = true;
+            this.Text = "JALILI Bikes";
     }
 
     private void StartConnectingToMMI()

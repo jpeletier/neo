@@ -13,8 +13,8 @@ namespace ZerroWare
 {
   internal class ActivationInformation
   {
-    private static int versionLevel = 0;
-    private static int oemPartnerId = 0;
+    public static int versionLevel = 0;
+    public static int oemPartnerId = 0;
     private static string licenseKey = string.Empty;
     private static string additionalInformation = string.Empty;
     private static bool allAccessActive = false;
@@ -45,6 +45,7 @@ namespace ZerroWare
 
     public static string UniqueHardwareID()
     {
+            return "uniquehardwareid";
       string str1 = string.Empty;
       string str2 = string.Empty;
       string str3 = string.Empty;
@@ -147,6 +148,7 @@ namespace ZerroWare
 
     public static bool ActivationWasSuccessful(string serverAnswer, string activationDate)
     {
+            return true;
       string empty1 = string.Empty;
       string empty2 = string.Empty;
       string empty3 = string.Empty;
